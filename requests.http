@@ -1,0 +1,15 @@
+POST http://localhost:9001/api/posts
+Accept: */*
+Cache-Control: no-cache
+x-auth-token: dummy7oken
+
+{
+  "title": "Hello, World",
+  "body": "This is a new blog post"
+}
+
+###
+GET http://localhost:9001/api/posts
+Accept: */*
+Cache-Control: no-cache
+x-auth-token: dummy7oken
